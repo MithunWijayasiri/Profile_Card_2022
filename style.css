@@ -86,7 +86,7 @@ body{
     font-size: 14px;
 }
 
-.btn-areaa{
+.btn-area{
     text-decoration: none;
     color: #262626;
     background: rgba(255,255,255,0.6);
@@ -101,15 +101,51 @@ body{
     color: #fff;
 }
 
-.profile-img{
+/* Error! If I enable this, texts hide automatically */
+
+/* .profile-img{
     width: 120px;
     height: 120px;
     border-radius: 50%;
     overflow: hidden;
     object-fit: cover;
-}
+} */
 
 .profile-img img{
     width: 100%;
 }
+
+.socials{
+    margin-top: 20px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.socials div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 45px;
+    color: #fff;
+    margin: 0 5px;
+}
+
+/* Error! Icon Not Colored */
+.socials div.a1{
+    background: #48d859;
+}
+.socials div.a2{
+    background: #d84869;
+}
+.socials div.a3{
+    background: #d84869;
+}
+.socials div.a4{
+    background: #d84869;
+}
+
+
 
