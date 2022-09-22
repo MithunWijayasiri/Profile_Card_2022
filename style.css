@@ -86,10 +86,10 @@ body{
     font-size: 14px;
 }
 
-.btn-area{
+.btn-area a{
     text-decoration: none;
-    color: #262626;
-    background: rgba(255,255,255,0.6);
+    color: #fff;
+    background: transparent;
     display: inline-block;
     padding: 8px 15px;
     margin: 15px 5px;
@@ -132,13 +132,13 @@ body{
 }
 
 .socials div.a1{
-    background: #48d859;
+    background: #25316D;
 }
 .socials div.a2{
-    background: #d84869;
+    background: #181818;
 }
 .socials div.a3{
-    background: #d84869;
+    background: #0F3460;
 }
 .socials div.a4{
     background: #d84869;
