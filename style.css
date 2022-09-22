@@ -8,8 +8,15 @@
     font-family: poppins;
 }
 
-body{
+/* body{
     background: #000;
+} */
+
+body{
+    background-image: url(https://i.ibb.co/2NPSZ9Y/bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .wrapper{
@@ -26,7 +33,7 @@ body{
 }
 
 /* Color Circles */
-.round-1{
+/* .round-1{
     position: absolute;
     top: 5%;
     left: 32%;
@@ -46,7 +53,7 @@ body{
     border-radius: 50%;
     box-shadow: 0 0 50px #5622ff;
     background: linear-gradient(180deg,#5622ff,#4190fd);
-}
+} */
 
 .box{
     width: 350px;
