@@ -8,12 +8,8 @@
     font-family: poppins;
 }
 
-/* body{
-    background: #000;
-} */
-
 body{
-    background-image: url(https://i.ibb.co/2NPSZ9Y/bg2.jpg);
+    background-image: url(https://i.ibb.co/cTNRFbg/bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -31,29 +27,6 @@ body{
     position: relative;
     justify-content: center;
 }
-
-/* Color Circles */
-/* .round-1{
-    position: absolute;
-    top: 5%;
-    left: 32%;
-    width: 13em;
-    height: 13em;
-    border-radius: 50%;
-    box-shadow: 0 0 50px #d84869;
-    background: linear-gradient(-25deg,#d84869,#f46641);
-}
-
-.round-2{
-    position: absolute;
-    top: 50%;
-    right: 23%;
-    width: 19em;
-    height: 19em;
-    border-radius: 50%;
-    box-shadow: 0 0 50px #5622ff;
-    background: linear-gradient(180deg,#5622ff,#4190fd);
-} */
 
 .box{
     width: 350px;
