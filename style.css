@@ -69,7 +69,7 @@ body{
 }
 
 .box h2{
-    color: #ffffff60;
+    color: #f5f5f5;
     text-transform: capitalize;
     margin: 15px 0;
 }
@@ -126,22 +126,22 @@ body{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    line-height: 45px;
+    line-height: 40px;
     color: #fff;
     margin: 0 5px;
 }
 
 .socials div.a1{
-    background: #25316D;
+    background: #0077b5;
 }
 .socials div.a2{
-    background: #181818;
+    background: #333;
 }
 .socials div.a3{
-    background: #0F3460;
+    background: #4267B2;
 }
 .socials div.a4{
-    background: #d84869;
+    background: #0088cc;
 }
 
 
