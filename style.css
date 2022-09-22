@@ -101,15 +101,13 @@ body{
     color: #fff;
 }
 
-/* Error! If I enable this, texts hide automatically */
-
-/* .profile-img{
+.profile-img{
     width: 120px;
     height: 120px;
     border-radius: 50%;
     overflow: hidden;
     object-fit: cover;
-} */
+}
 
 .profile-img img{
     width: 100%;
@@ -133,7 +131,6 @@ body{
     margin: 0 5px;
 }
 
-/* Error! Icon Not Colored */
 .socials div.a1{
     background: #48d859;
 }
