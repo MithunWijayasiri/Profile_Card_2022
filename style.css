@@ -133,5 +133,9 @@ body{
     background: #0088cc;
 }
 
-
+footer {
+	text-align: center;
+	color: white;
+	font-size: 1.2em
+}
 
