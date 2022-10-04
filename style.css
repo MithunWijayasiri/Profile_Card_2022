@@ -16,11 +16,10 @@
 } */
 
 /* Animated Background - Start */
-
 body{
     background: #251B37;
-    height: 100vh;
     width: 100%;
+    height: 100%;
 }
 
 .circles{
