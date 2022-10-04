@@ -110,6 +110,20 @@ html, body{
     animation-delay: 10s;
     animation-duration: 35s; 
 }
+.circles li:nth-child(11){
+    left: 43%;
+    width: 35px;
+    height: 35px;
+    animation-delay: 8s;
+    animation-duration: 40s; 
+}
+.circles li:nth-child(12){
+    left: 40%;
+    width: 55px;
+    height: 55px;
+    animation-delay: 12s;
+    animation-duration: 30s; 
+}
 
 @keyframes animate{
     0;
