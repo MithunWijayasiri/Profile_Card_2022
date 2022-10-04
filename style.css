@@ -15,7 +15,7 @@
 } */
 
 /* Animated Background - Start */
-html, body{
+body{
     background: #251B37;
     background-repeat: no-repeat;
 	background-size: cover;
