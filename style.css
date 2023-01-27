@@ -21,6 +21,7 @@ body{
     background: #100720;
     height: 100vh;
     width: 100%;
+    overflow: hidden;
 }
 
 .circles{
