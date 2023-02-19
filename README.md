@@ -1,6 +1,7 @@
 # Profile Card
 
-- Created Profile Card for me. 
+- My Profile Card for 2022. 
 - Portfolio and Social Links will update later.
 
-![screenshot-rocks](https://user-images.githubusercontent.com/104470671/191900143-f7df9186-5373-4a35-ae0f-ff6fd1c366b0.png)
+![screely-1676814123201](https://user-images.githubusercontent.com/104470671/219952071-7089b1ca-3a87-4a00-93ce-aee6587e435e.png)
+
