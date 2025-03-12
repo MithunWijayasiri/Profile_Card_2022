@@ -8,7 +8,6 @@
     outline: none;
     border: none;
     font-family: 'Poppins';
-    /* font-family: poppins; */
 }
 
 /* body{
@@ -122,7 +121,7 @@ body{
 }
 
 @keyframes animate{
-    0;
+    0%
     {
         transform:translateY(0) rotate(0deg);
         opacity:1;
@@ -265,5 +264,23 @@ body{
 }
 .socials div.a7{
     background: #176B87;
+}
+
+/* Button hover effects */
+.btn-area a {
+    transition: all 0.2s ease;
+}
+
+.btn-area a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.linkedin-btn:hover {
+    background-color: #100720be;
+}
+
+.github-btn:hover {
+    background-color: #100720be;
 }
 
