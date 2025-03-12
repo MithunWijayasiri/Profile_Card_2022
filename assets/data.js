@@ -8,6 +8,7 @@ const profileData = {
         linkedin: "https://www.linkedin.com/in/mithun-wijayasiri",
         github: "https://github.com/MithunWijayasiri",
         instagram: "https://www.instagram.com/1.2.3.bumblebee/",
-        devTo: "https://dev.to/mithunwijayasiri"
+        devTo: "https://dev.to/mithunwijayasiri",
+        googleDev: "https://g.dev/mithunw"
     }
 };
