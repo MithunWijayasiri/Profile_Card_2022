@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mithun - Profile Card</title>
+    <title>Profile Card - Mithun</title>
+    <script src="assets/data.js"></script>
+    <script src="assets/script.js"></script>
+    <script>
+        // Add favicon links dynamically
+        document.head.insertAdjacentHTML('beforeend', `
+            <link rel="icon" type="image/png" sizes="16x16" href="${profileData.favicon.small}">
+            <link rel="icon" type="image/png" sizes="32x32" href="${profileData.favicon.default}">
+            <link rel="icon" type="image/png" sizes="96x96" href="${profileData.favicon.large}">
+        `);
+    </script>
     <link rel="preconnect" href="https://api.fonts.coollabs.io" crossorigin />
     <link href="https://api.fonts.coollabs.io/css2?family" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/style.css">
-    <script src="assets/data.js"></script>
-    <script src="assets/script.js"></script>
 </head>
 <body>
     <div class="round-1"></div>
