@@ -1,4 +1,5 @@
 # Profile Card
 
-![screely-1676814123201](https://user-images.githubusercontent.com/104470671/219952071-7089b1ca-3a87-4a00-93ce-aee6587e435e.png)
+<img width="1650" height="852" alt="image" src="https://github.com/user-attachments/assets/3df1da1d-2cb1-492d-a1f5-de8c91cbdd1a" />
+
 
