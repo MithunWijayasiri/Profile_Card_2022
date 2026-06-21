@@ -52,13 +52,21 @@
         document.getElementById('profile-profession').innerHTML = profileData.profession + '<br>' + profileData.secondaryRole;
         document.querySelector('.profile-img img').src = profileData.profileImage;
         
-        // Social links
-        document.querySelector('.linkedin-btn').href = profileData.socialLinks.linkedin;
+        // Social links — use click handlers instead of href to avoid adblock filters
+        // that hide elements with href containing linkedin.com etc.
         document.querySelector('.github-btn').href = profileData.socialLinks.github;
-        document.querySelector('.a1 a').href = profileData.socialLinks.linkedin;
         document.querySelector('.a5 a').href = profileData.socialLinks.github;
         document.querySelector('.a6 a').href = profileData.socialLinks.instagram;
         document.querySelector('.a7 a').href = profileData.socialLinks.devTo;
+
+        document.querySelector('.linkedin-btn').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.open(profileData.socialLinks.linkedin, '_blank');
+        });
+        document.querySelector('.a1 a').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.open(profileData.socialLinks.linkedin, '_blank');
+        });
     </script>
 </body>
 </html>
