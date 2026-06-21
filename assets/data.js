@@ -1,8 +1,6 @@
 const profileData = {
     name: "Mithun Wijayasiri",
     location: "Colombo, Sri Lanka",
-    profession: "QA Engineer & Web Developer",
-    secondaryRole: "UI/UX Designer",
     profileImage: "data/Mithun.png", 
     favicon: {
         small: "data/favicon/dev-color-16.png",

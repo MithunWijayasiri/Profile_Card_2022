@@ -27,12 +27,8 @@
             <div class="profile-img"> <img alt="Profile Picture"></div>
 
             <h2 id="profile-name"><span id="profile-location"></span></h2>
-            <p id="profile-profession"></p>
 
-            <p class="btn-area">
-                <a class="linkedin-btn" href="#">LinkedIn</a>
-                <a class="github-btn">Github</a>
-            </p>
+            <p class="bio">ISTQB certified QA Engineer at Corzent, based in Sri Lanka. Building side projects — always open to collab on open-source.</p>
 
             <div class="socials">
                 <div class="a1"><a href="#" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a></div>
@@ -46,20 +42,12 @@
     <script>
         // Populate profile data from data.js
         document.getElementById('profile-name').innerHTML = profileData.name + ' <span>' + profileData.location + '</span>';
-        document.getElementById('profile-profession').innerHTML = profileData.profession + '<br>' + profileData.secondaryRole;
         document.querySelector('.profile-img img').src = profileData.profileImage;
         
-        // Social links — use click handlers instead of href to avoid adblock filters
-        // that hide elements with href containing linkedin.com etc.
-        document.querySelector('.github-btn').href = profileData.socialLinks.github;
+        // Social links
         document.querySelector('.a5 a').href = profileData.socialLinks.github;
         document.querySelector('.a6 a').href = profileData.socialLinks.instagram;
         document.querySelector('.a7 a').href = profileData.socialLinks.devTo;
-
-        document.querySelector('.linkedin-btn').addEventListener('click', function(e) {
-            e.preventDefault();
-            window.open(profileData.socialLinks.linkedin, '_blank', 'noopener,noreferrer');
-        });
         document.querySelector('.a1 a').addEventListener('click', function(e) {
             e.preventDefault();
             window.open(profileData.socialLinks.linkedin, '_blank', 'noopener,noreferrer');
