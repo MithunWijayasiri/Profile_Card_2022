@@ -31,10 +31,10 @@
             <p class="bio">ISTQB certified QA Engineer at Corzent, based in Sri Lanka. Building side projects — always open to collab on open-source.</p>
 
             <div class="socials">
-                <div class="a1"><a href="#" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a></div>
-                <div class="a5"><a aria-label="GitHub"><i class="fa fa-github"></i></a></div>
-                <div class="a6"><a aria-label="Instagram"><i class="fa fa-instagram"></i></a></div>
-                <div class="a7"><a aria-label="Dev.to"><i class="fa fa-code"></i></a></div>
+                <div class="a1"><a href="#" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></div>
+                <div class="a5"><a href="#" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a></div>
+                <div class="a6"><a href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a></div>
+                <div class="a7"><a href="#" aria-label="Dev.to" target="_blank" rel="noopener noreferrer"><i class="fa fa-code"></i></a></div>
             </div>
         </div>
     </div>
@@ -45,13 +45,10 @@
         document.querySelector('.profile-img img').src = profileData.profileImage;
         
         // Social links
+        document.querySelector('.a1 a').href = profileData.socialLinks.linkedin;
         document.querySelector('.a5 a').href = profileData.socialLinks.github;
         document.querySelector('.a6 a').href = profileData.socialLinks.instagram;
         document.querySelector('.a7 a').href = profileData.socialLinks.devTo;
-        document.querySelector('.a1 a').addEventListener('click', function(e) {
-            e.preventDefault();
-            window.open(profileData.socialLinks.linkedin, '_blank', 'noopener,noreferrer');
-        });
     </script>
 </body>
 </html>
