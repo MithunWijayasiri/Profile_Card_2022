@@ -13,7 +13,6 @@ const profileData = {
         linkedin: "https://www.linkedin.com/in/mithun-wijayasiri",
         github: "https://github.com/MithunWijayasiri",
         instagram: "https://www.instagram.com/_mithun.w_/",
-        devTo: "https://dev.to/mithunwijayasiri",
-        googleDev: "https://g.dev/mithunw"
+        devTo: "https://dev.to/mithunwijayasiri"
     }
 };

@@ -15,14 +15,11 @@
         `);
     </script>
     <link rel="preconnect" href="https://api.fonts.coollabs.io" crossorigin />
-    <link href="https://api.fonts.coollabs.io/css2?family" rel="stylesheet">
+    <link href="https://api.fonts.coollabs.io/css2?family=Poppins:wght@200;300;400;500;600;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <div class="round-1"></div>
-    <div class="round-2"></div>
-
     <ul class="circles" id="circles"></ul>
 
     <div class="wrapper">
@@ -33,15 +30,15 @@
             <p id="profile-profession"></p>
 
             <p class="btn-area">
-                <a class="linkedin-btn">LinkedIn</a>
+                <a class="linkedin-btn" href="#">LinkedIn</a>
                 <a class="github-btn">Github</a>
             </p>
 
             <div class="socials">
-                <div class="a1"><a><i class="fa fa-linkedin"></i></a></div>
-                <div class="a5"><a><i class="fa fa-github"></i></a></div>
-                <div class="a6"><a><i class="fa fa-instagram"></i></a></div>
-                <div class="a7"><a><i class="fa fa-code"></i></a></div>
+                <div class="a1"><a href="#" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a></div>
+                <div class="a5"><a aria-label="GitHub"><i class="fa fa-github"></i></a></div>
+                <div class="a6"><a aria-label="Instagram"><i class="fa fa-instagram"></i></a></div>
+                <div class="a7"><a aria-label="Dev.to"><i class="fa fa-code"></i></a></div>
             </div>
         </div>
     </div>
@@ -61,11 +58,11 @@
 
         document.querySelector('.linkedin-btn').addEventListener('click', function(e) {
             e.preventDefault();
-            window.open(profileData.socialLinks.linkedin, '_blank');
+            window.open(profileData.socialLinks.linkedin, '_blank', 'noopener,noreferrer');
         });
         document.querySelector('.a1 a').addEventListener('click', function(e) {
             e.preventDefault();
-            window.open(profileData.socialLinks.linkedin, '_blank');
+            window.open(profileData.socialLinks.linkedin, '_blank', 'noopener,noreferrer');
         });
     </script>
 </body>

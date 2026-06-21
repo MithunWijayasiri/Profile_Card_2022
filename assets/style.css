@@ -1,6 +1,3 @@
-/* import fonts */
-@import url('https://api.fonts.coollabs.io/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -471,18 +468,6 @@ body::before {
 /* Social media brand colors with enhanced vibrancy */
 .socials div.a1 {
     background: linear-gradient(135deg, #0077b5, #005885);
-}
-
-.socials div.a2 {
-    background: linear-gradient(135deg, #1DA1F2, #0d8bd9);
-}
-
-.socials div.a3 {
-    background: linear-gradient(135deg, #4267B2, #2d4a93);
-}
-
-.socials div.a4 {
-    background: linear-gradient(135deg, #0088cc, #006699);
 }
 
 .socials div.a5 {
