@@ -12,7 +12,7 @@ const profileData = {
     socialLinks: {
         linkedin: "https://www.linkedin.com/in/mithun-wijayasiri",
         github: "https://github.com/MithunWijayasiri",
-        instagram: "https://www.instagram.com/1.2.3.bumblebee/",
+        instagram: "https://www.instagram.com/_mithun.w_/",
         devTo: "https://dev.to/mithunwijayasiri",
         googleDev: "https://g.dev/mithunw"
     }
