@@ -7,10 +7,4 @@ document.addEventListener('DOMContentLoaded', function() {
         const li = document.createElement('li');
         circlesList.appendChild(li);
     }
-    
-    // Add smooth entrance animation to the card
-    const card = document.querySelector('.box');
-    setTimeout(() => {
-        card.style.opacity = '1';
-    }, 100);
 });

@@ -1,8 +1,6 @@
 const profileData = {
     name: "Mithun Wijayasiri",
     location: "Colombo, Sri Lanka",
-    profession: "QA Engineer & Web Developer",
-    secondaryRole: "UI/UX Designer",
     profileImage: "data/Mithun.png", 
     favicon: {
         small: "data/favicon/dev-color-16.png",
@@ -13,7 +11,6 @@ const profileData = {
         linkedin: "https://www.linkedin.com/in/mithun-wijayasiri",
         github: "https://github.com/MithunWijayasiri",
         instagram: "https://www.instagram.com/_mithun.w_/",
-        devTo: "https://dev.to/mithunwijayasiri",
-        googleDev: "https://g.dev/mithunw"
+        devTo: "https://dev.to/mithunwijayasiri"
     }
 };
